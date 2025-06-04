@@ -1,0 +1,4 @@
+C:/Users/shade/OneDrive/Рабочий стол/Custom_TicTacToe_Project/build/CMakeFiles/game_logic.dir
+C:/Users/shade/OneDrive/Рабочий стол/Custom_TicTacToe_Project/build/CMakeFiles/TicTacToe.dir
+C:/Users/shade/OneDrive/Рабочий стол/Custom_TicTacToe_Project/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/shade/OneDrive/Рабочий стол/Custom_TicTacToe_Project/build/CMakeFiles/ZERO_CHECK.dir

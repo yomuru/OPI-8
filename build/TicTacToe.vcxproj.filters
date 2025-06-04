@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\shade\OneDrive\Рабочий стол\Custom_TicTacToe_Project\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shade\OneDrive\Рабочий стол\Custom_TicTacToe_Project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5D8ECC4-BF95-3B05-A507-1536F7573626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

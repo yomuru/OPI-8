@@ -1,0 +1,10 @@
+^C:\USERS\SHADE\ONEDRIVE\РАБОЧИЙ СТОЛ\CUSTOM_TICTACTOE_PROJECT\BUILD\CMAKEFILES\51A08EF5F97333F6D19AC9D333D50AEE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/shade/OneDrive/Рабочий стол/Custom_TicTacToe_Project" "-BC:/Users/shade/OneDrive/Рабочий стол/Custom_TicTacToe_Project/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/shade/OneDrive/Рабочий стол/Custom_TicTacToe_Project/build/TicTacToe.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
