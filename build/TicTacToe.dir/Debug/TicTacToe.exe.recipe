@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\shade\OneDrive\Рабочий стол\Custom_TicTacToe_Project\build\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\shade\OneDrive\Рабочий стол\Custom_TicTacToe_Project\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\shade\OneDrive\Рабочий стол\Custom_TicTacToe_Project\build\Debug\TicTacToe.exe</FullPath>

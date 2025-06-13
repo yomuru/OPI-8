@@ -1,0 +1,28 @@
+name: CI_ShvetsDaniil_Z-21
+
+on:
+  push:
+    branches: [ "master", "dev" ]
+  pull_request:
+    branches: [ "master" ]
+
+env:
+  BUILD_TYPE: Release
+  MY_VARIABLE: "Hello"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - run: echo ${{env.MY_VARIABLE}} 
+
+    - name: Configure CMake
+      run: cmake -B ${{ github.workspace }}/build -DCMAKE_BUILD_TYPE=${{ env.BUILD_TYPE }} -DUSE_STATIC_LIB=ON
+
+    - name: Build via CMake
+      run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
+
+    - name: List directories
+      run: ls -laR ${{github.workspace}}
