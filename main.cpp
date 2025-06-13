@@ -23,6 +23,7 @@ Settings loadSettings() {
         getline(file, settings.player1);
         getline(file, settings.player2);
     } else {
+        cout << "Error." << endl;
         cout << "Unable to open settings file. Using default settings." << endl;
     }
     file.close();
