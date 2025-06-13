@@ -2,7 +2,7 @@ name: CI_ShvetsDaniil_Z-21
 
 on:
   push:
-    branches: [ "master", "dev" ]
+    branches: [ "master", "Dota" ]
   pull_request:
     branches: [ "master" ]
 
